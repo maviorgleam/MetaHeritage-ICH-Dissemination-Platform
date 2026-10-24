@@ -20,7 +20,7 @@ This project investigates whether immersive metaverse scenes combined with multi
 I led the overall scene design and spatial environment development of the ICH metaverse ancient-style market, designed the AI digital human interaction system, conducted research on immersive communication models, and oversaw full-process user validation.
 
 **My Contributions**：
-### 1. Immersive Traditional-Style Marketplace Development
+### 1. Immersive Marketplace Scene Design & Spatial Development
 Designed and delivered a comprehensive immersive traditional-style marketplace experience.
 - Planned the overall spatial layout and touring route based on cultural narrative rhythm
 - Designed interactive trigger zones for each stall to match the embodied interaction experience
