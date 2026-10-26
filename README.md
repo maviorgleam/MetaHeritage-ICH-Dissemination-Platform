@@ -47,8 +47,8 @@ This repository includes the modules I was personally responsible for:
 - **Experiment_Analysis** – Data processing and statistical analysis scripts for the three-group controlled experiment, including descriptive statistics and independent samples t-test
 
 ## Supplementary Materials
-- **Full Design Process & Experimental Study Compendium**: [Link to your PDF document]
-- **Integrated Interactive Demo Video (all 4 research projects)**: [Link to your video]
+
+- **Integrated Interactive Demo Video (all 4 research projects)**: [https://www.feicut.com/fv/FV28rlr7zx9y?cm=2&fc=5&p=0]
   The MetaHeritage segment is located in the top-right module of the video interface.
 
 ## Notes
