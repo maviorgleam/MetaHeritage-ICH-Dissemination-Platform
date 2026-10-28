@@ -44,7 +44,8 @@ Adopted a mixed-methods evaluation framework across three dimensions: exploratio
 ## Repository Structure
 This repository includes the modules I was personally responsible for:
 - **Scripts** – Interaction logic scripts, including market spatial layout, stall interaction, craft animation control, scene flow management, and digital human dialogue flow control
-- **Experiment_Analysis** – Data processing and statistical analysis scripts for the three-group controlled experiment, including descriptive statistics and independent samples t-test
+- **Experiment_Analysis** – Data processing and statistical analysis for the three-group controlled experiment, including the anonymized dataset (n = 45, 15 per group) and the formal analysis script (descriptive statistics, one-way ANOVA with Tukey HSD post-hoc, and robustness checks: Welch ANOVA & Kruskal–Wallis)
+- **results** – Reproducible outputs of the analysis script
 
 ## Supplementary Materials
 
