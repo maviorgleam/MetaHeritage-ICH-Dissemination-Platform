@@ -1,0 +1,85 @@
+======================================================================
+MetaHeritage Formal Analysis (One-way ANOVA + Tukey HSD)
+======================================================================
+Total participants: 45  |  Per group: {'A': 15, 'B': 15, 'C': 15}
+
+----------------------------------------------------------------------
+Descriptive Statistics (Mean % ± SD)
+----------------------------------------------------------------------
+Measure                               Text & Image               Pure 3D    3D + Digital Human
+Exploration Interest                 55.5 ±  2.8           72.7 ±  1.8           90.0 ±  1.8  
+Immediate Knowledge Retention         61.9 ±  2.1           74.0 ±  1.8           85.0 ±  1.8  
+24-hour Knowledge Retention          48.1 ±  2.2           61.0 ±  2.1           76.0 ±  1.8  
+Cultural Identity                    62.7 ±  1.7           74.0 ±  3.7           86.0 ±  1.8  
+
+----------------------------------------------------------------------
+Assumption Check: Levene's test for homogeneity of variances (p > 0.05 → OK)
+----------------------------------------------------------------------
+Exploration Interest         Levene W= 1.311, p=0.2804  OK (homogeneous)
+Immediate Knowledge Retention Levene W= 0.370, p=0.6932  OK (homogeneous)
+24-hour Knowledge Retention  Levene W= 0.263, p=0.7701  OK (homogeneous)
+Cultural Identity            Levene W= 7.495, p=0.0016  WARNING (heterogeneous)
+
+----------------------------------------------------------------------
+One-way ANOVA (significance level α = 0.05)
+----------------------------------------------------------------------
+Exploration Interest         F=945.437, p=0.0000  significant
+Immediate Knowledge Retention F=563.360, p=0.0000  significant
+24-hour Knowledge Retention  F=703.793, p=0.0000  significant
+Cultural Identity            F=313.805, p=0.0000  significant
+
+----------------------------------------------------------------------
+Robustness Checks: Welch ANOVA & Kruskal-Wallis
+----------------------------------------------------------------------
+Exploration Interest         Welch F=874.480, p=0.0000  significant
+                             Kruskal H=39.221, p=0.0000  significant
+Immediate Knowledge Retention Welch F=531.065, p=0.0000  significant
+                             Kruskal H=39.236, p=0.0000  significant
+24-hour Knowledge Retention  Welch F=727.981, p=0.0000  significant
+                             Kruskal H=39.265, p=0.0000  significant
+Cultural Identity            Welch F=653.422, p=0.0000  significant
+                             Kruskal H=39.234, p=0.0000  significant
+
+----------------------------------------------------------------------
+Post-hoc: Tukey HSD pairwise comparisons (family-wise α = 0.05)
+----------------------------------------------------------------------
+
+--- Exploration Interest ---
+  Text & Image vs Pure 3D: mean diff = +17.3, p = 0.0000  (significant)
+  Text & Image vs 3D + Digital Human: mean diff = +34.5, p = 0.0000  (significant)
+  Pure 3D vs 3D + Digital Human: mean diff = +17.3, p = 0.0000  (significant)
+
+--- Immediate Knowledge Retention ---
+  Text & Image vs Pure 3D: mean diff = +12.1, p = 0.0000  (significant)
+  Text & Image vs 3D + Digital Human: mean diff = +23.1, p = 0.0000  (significant)
+  Pure 3D vs 3D + Digital Human: mean diff = +11.0, p = 0.0000  (significant)
+
+--- 24-hour Knowledge Retention ---
+  Text & Image vs Pure 3D: mean diff = +12.9, p = 0.0000  (significant)
+  Text & Image vs 3D + Digital Human: mean diff = +27.9, p = 0.0000  (significant)
+  Pure 3D vs 3D + Digital Human: mean diff = +15.0, p = 0.0000  (significant)
+
+--- Cultural Identity ---
+  Text & Image vs Pure 3D: mean diff = +11.3, p = 0.0000  (significant)
+  Text & Image vs 3D + Digital Human: mean diff = +23.3, p = 0.0000  (significant)
+  Pure 3D vs 3D + Digital Human: mean diff = +12.0, p = 0.0000  (significant)
+
+----------------------------------------------------------------------
+Summary: Group ranking by mean score (1 = highest)
+----------------------------------------------------------------------
+Exploration Interest         3D + Digital Human (90.0%) > Pure 3D (72.7%) > Text & Image (55.5%)
+Immediate Knowledge Retention 3D + Digital Human (85.0%) > Pure 3D (74.0%) > Text & Image (61.9%)
+24-hour Knowledge Retention  3D + Digital Human (76.0%) > Pure 3D (61.0%) > Text & Image (48.1%)
+Cultural Identity            3D + Digital Human (86.0%) > Pure 3D (74.0%) > Text & Image (62.7%)
+
+----------------------------------------------------------------------
+Robustness Verdict: consistency between ANOVA and robust checks
+----------------------------------------------------------------------
+Exploration Interest         ANOVA p=0.0000, Welch p=0.0000, Kruskal p=0.0000  Robust (all significant)
+Immediate Knowledge Retention ANOVA p=0.0000, Welch p=0.0000, Kruskal p=0.0000  Robust (all significant)
+24-hour Knowledge Retention  ANOVA p=0.0000, Welch p=0.0000, Kruskal p=0.0000  Robust (all significant)
+Cultural Identity            ANOVA p=0.0000, Welch p=0.0000, Kruskal p=0.0000  Robust (all significant)
+
+======================================================================
+Analysis complete.
+======================================================================
